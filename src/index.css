@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .bento-card {
+    @apply bg-white border border-slate-200 rounded-[2.5rem] shadow-sm overflow-hidden;
+  }
+  
+  .bento-inner {
+    @apply bg-slate-50 rounded-2xl border border-slate-100 p-4 transition-all hover:bg-slate-100;
+  }
+
+  .accent-emerald {
+    @apply text-emerald-600;
+  }
+}

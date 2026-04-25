@@ -1,0 +1,12 @@
+{
+  "name": "TransitSync LIVE",
+  "description": "Real-time match-synchronized transit portal for stadium fans. Dynamically syncs city transport with live match progress and provides emergency service access.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Gemini AI Integration",
+    "Real-time Transit Sync",
+    "Emergency Maps Access"
+  ]
+}
